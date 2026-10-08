@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModbusPoll>
+   <FileSchema r="0" c="0"/>
+   <Version major="12" minor="0" patch="0" build="2448"/>
+   <dpi>96</dpi>
+   <WP left="52" right="1247" top="52" bottom="477" ShowCmd="1" MaxPosX="-1" MaxPosY="-1" MinPosX="-1" MinPosY="-1"/>
+   <ScanRate>1000</ScanRate>
+   <SlaveID>1</SlaveID>
+   <Enable>1</Enable>
+   <StopOnError>0</StopOnError>
+   <OneBased>0</OneBased>
+   <RowsDialog>0</RowsDialog>
+   <HideNames>0</HideNames>
+   <HexMode>1</HexMode>
+   <DisplayAddr>0</DisplayAddr>
+   <ColCount>8</ColCount>
+   <RowCount>16</RowCount>
+   <ColumnWidth>
+      <CW>1040</CW>
+      <CW>1040</CW>
+      <CW>1040</CW>
+      <CW>1040</CW>
+      <CW>1040</CW>
+      <CW>1040</CW>
+      <CW>1040</CW>
+      <CW>1040</CW>
+   </ColumnWidth>
+   <RowHight>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+      <RH>230</RH>
+   </RowHight>
+   <ScrollPosV>0</ScrollPosV>
+   <ScrollPosH>0</ScrollPosH>
+   <FocusRow>6</FocusRow>
+   <FocusCol>2</FocusCol>
+   <LogText>
+      <Eachread>0</Eachread>
+      <Rate>1</Rate>
+      <LogChangedOnly>0</LogChangedOnly>
+      <LogErrors>0</LogErrors>
+      <LogErrorsOnly>0</LogErrorsOnly>
+      <LogAddress>1</LogAddress>
+      <LogDate>0</LogDate>
+      <TDelimiter>0</TDelimiter>
+      <LogMs>1</LogMs>
+      <Delimiter>0</Delimiter>
+      <AutoStart>0</AutoStart>
+      <Flush>0</Flush>
+      <Append>0</Append>
+      <NewLogFileAtMidnight>0</NewLogFileAtMidnight>
+      <InsertHeader>0</InsertHeader>
+      <NameCellsInTopRow>0</NameCellsInTopRow>
+      <PollDefinition>0</PollDefinition>
+      <LogName>Type log name here</LogName>
+      <FileName></FileName>
+   </LogText>
+   <LogExcel>
+      <Eachread>1</Eachread>
+      <Rate>1</Rate>
+      <StopAfter>1000</StopAfter>
+      <LogChangedOnly>0</LogChangedOnly>
+      <InsertHeader>1</InsertHeader>
+      <NameCellsInTopRow>1</NameCellsInTopRow>
+      <PollDefinition>1</PollDefinition>
+      <LogName>Type log name here</LogName>
+   </LogExcel>
+   <Data>
+      <Function>3</Function>
+      <Address>1280</Address>
+      <Quantity>64</Quantity>
+      <EnronMode>0</EnronMode>
+      <Formats>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+         <F f="0" v="0"/>
+      </Formats>
+      <Bytes>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+      </Bytes>
+      <CellData/>
+      <Scales/>
+      <ValueNames/>
+      <ChartSeries/>
+      <BinNames/>
+   </Data>
+</ModbusPoll>

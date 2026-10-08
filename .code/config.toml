@@ -1,0 +1,13 @@
+[mcp_servers.matlab]
+command = "D:\\MCP\\matlab-mcp-server-windows-x64.exe"
+args = [
+  "--matlab-root",
+  "D:\\Program Files\\MATLAB\\R2025b",
+  "--initial-working-folder",
+  "D:\\Desktop\\Motor\\MOTOR_APP",
+  "--matlab-display-mode",
+  "desktop",
+  "--matlab-session-mode",
+  "auto",
+]
+startup_timeout_sec = 120

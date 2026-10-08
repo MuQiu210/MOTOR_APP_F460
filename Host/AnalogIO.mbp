@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModbusPoll>
+   <FileSchema r="0" c="0"/>
+   <Version major="12" minor="0" patch="0" build="2448"/>
+   <dpi>192</dpi>
+   <WP left="51" right="2013" top="51" bottom="712" ShowCmd="3" MaxPosX="-13" MaxPosY="-58" MinPosX="-1" MinPosY="-1"/>
+   <ScanRate>0</ScanRate>
+   <SlaveID>1</SlaveID>
+   <Enable>1</Enable>
+   <StopOnError>0</StopOnError>
+   <OneBased>0</OneBased>
+   <RowsDialog>4</RowsDialog>
+   <HideNames>0</HideNames>
+   <HexMode>1</HexMode>
+   <DisplayAddr>0</DisplayAddr>
+   <ColCount>2</ColCount>
+   <RowCount>14</RowCount>
+   <ColumnWidth>
+      <CW>1855</CW>
+      <CW>1025</CW>
+   </ColumnWidth>
+   <RowHight>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+      <RH>200</RH>
+   </RowHight>
+   <ScrollPosV>0</ScrollPosV>
+   <ScrollPosH>0</ScrollPosH>
+   <FocusRow>13</FocusRow>
+   <FocusCol>2</FocusCol>
+   <LogText>
+      <Eachread>0</Eachread>
+      <Rate>1</Rate>
+      <LogChangedOnly>0</LogChangedOnly>
+      <LogErrors>0</LogErrors>
+      <LogErrorsOnly>0</LogErrorsOnly>
+      <LogAddress>1</LogAddress>
+      <LogDate>0</LogDate>
+      <TDelimiter>0</TDelimiter>
+      <LogMs>1</LogMs>
+      <Delimiter>0</Delimiter>
+      <AutoStart>0</AutoStart>
+      <Flush>0</Flush>
+      <Append>0</Append>
+      <NewLogFileAtMidnight>0</NewLogFileAtMidnight>
+      <InsertHeader>0</InsertHeader>
+      <NameCellsInTopRow>0</NameCellsInTopRow>
+      <PollDefinition>0</PollDefinition>
+      <LogName>Type log name here</LogName>
+      <FileName></FileName>
+   </LogText>
+   <LogExcel>
+      <Eachread>1</Eachread>
+      <Rate>1</Rate>
+      <StopAfter>1000</StopAfter>
+      <LogChangedOnly>0</LogChangedOnly>
+      <InsertHeader>1</InsertHeader>
+      <NameCellsInTopRow>1</NameCellsInTopRow>
+      <PollDefinition>1</PollDefinition>
+      <LogName>Type log name here</LogName>
+   </LogExcel>
+   <Data>
+      <Function>3</Function>
+      <Address>256</Address>
+      <Quantity>14</Quantity>
+      <EnronMode>0</EnronMode>
+      <Formats>
+         <F f="0" v="2344"/>
+         <F f="0" v="1934"/>
+         <F f="0" v="1888"/>
+         <F f="0" v="3036"/>
+         <F f="0" v="2559"/>
+         <F f="0" v="2709"/>
+         <F f="0" v="3134"/>
+         <F f="0" v="1672"/>
+         <F f="0" v="1786"/>
+         <F f="0" v="1"/>
+         <F f="0" v="930"/>
+         <F f="0" v="930"/>
+         <F f="0" v="3399"/>
+         <F f="0" v="23402"/>
+      </Formats>
+      <Bytes>
+         <B>40</B>
+         <B>9</B>
+         <B>142</B>
+         <B>7</B>
+         <B>96</B>
+         <B>7</B>
+         <B>220</B>
+         <B>11</B>
+         <B>255</B>
+         <B>9</B>
+         <B>149</B>
+         <B>10</B>
+         <B>62</B>
+         <B>12</B>
+         <B>136</B>
+         <B>6</B>
+         <B>250</B>
+         <B>6</B>
+         <B>1</B>
+         <B>0</B>
+         <B>162</B>
+         <B>3</B>
+         <B>162</B>
+         <B>3</B>
+         <B>71</B>
+         <B>13</B>
+         <B>106</B>
+         <B>91</B>
+      </Bytes>
+      <CellData>
+         <Cell idx="0">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>A 相电流 ADC 原始值</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="1">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>B 相电流 ADC 原始值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="2">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>C 相电流 ADC 原始值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="3">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>Hall A ADC 原始值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="4">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>Hall B ADC 原始值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="5">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>24V 检测 ADC 原始值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="6">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>5V 检测 ADC 原始值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="7">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>电机温度 ADC 原始值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="8">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>MOS 温度 ADC 原始值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="9">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>三相桥输出使能	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="10">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>U 相 PWM 比较寄存器值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="11">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>V 相 PWM 比较寄存器值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="12">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>W 相 PWM 比较寄存器值	</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="13">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>编码器数值</Name>
+            <Font used="false"/>
+         </Cell>
+      </CellData>
+      <Scales/>
+      <ValueNames/>
+      <ChartSeries>
+         <Serie idx="10" serie="0"/>
+         <Serie idx="11" serie="1"/>
+         <Serie idx="12" serie="2"/>
+      </ChartSeries>
+      <BinNames/>
+   </Data>
+</ModbusPoll>

@@ -1,0 +1,8 @@
+[submodule "Model"]
+	path = Model
+	url = https://github.com/MuQiu210/MOTOR_COMP_MODEL.git
+	branch = main
+[submodule "Components"]
+	path = Components
+	url = https://github.com/MuQiu210/MOTOR_COMP.git
+	branch = main

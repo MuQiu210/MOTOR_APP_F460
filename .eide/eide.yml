@@ -1,0 +1,115 @@
+version: "4.1"
+name: MOTOR_APP_F460
+type: ARM
+deviceName: null
+packDir: null
+srcDirs:
+  - CMSIS/Core/Include
+  - common
+  - driver/src
+  - GCC
+  - Hardware
+  - User
+  - Model/Code/Model_ert_rtw
+  - Components
+virtualFolder:
+  name: <virtual_root>
+  files: []
+  folders: []
+dependenceList: []
+outDir: build
+miscInfo:
+  uid: 20c9f7c5f4604d8fa7b2fbce2c9f1e61
+targets:
+  F460:
+    cppPreprocessAttrs:
+      defineList:
+        - __MICROLIB
+        - HC32F460
+        - USE_DDL_DRIVER
+      incList:
+        - .
+        - CMSIS/Core/Include
+        - common
+        - Core
+        - driver/inc
+        - Hardware
+        - User
+        - Components
+        - Components/critical
+        - Components/damiao
+        - Components/dji
+        - Components/j1939
+        - Components/md5
+        - Components/modbus
+        - Components/ota
+        - Components/ringbuffer
+        - Components/syscalls
+        - Components/task
+        - Model/Code/Model_ert_rtw
+        - Components/base
+        - Components/canopen
+        - Components/linker
+        - Components/nvstore
+        - Components/pack
+      libList: []
+    excludeList:
+      - <virtual_root>/Components
+    settings: {}
+    toolchain: GCC
+    toolchainConfigMap:
+      GCC:
+        archExtensions: ""
+        cpuType: Cortex-M4
+        floatingPointHardware: single
+        options:
+          version: 5
+          afterBuildTasks: []
+          asm-compiler: {}
+          beforeBuildTasks: []
+          c/cpp-compiler:
+            C_FLAGS: -ffreestanding -fno-common -Wextra -Wno-unused-parameter
+            language-c: c11
+            language-cpp: c++11
+            one-elf-section-per-data: true
+            one-elf-section-per-function: true
+            optimization: level-fast
+            warnings: all-warnings
+          global:
+            $float-abi-type: hard
+            arm-thumb-mode: thumb
+            not-use-syscalls: true
+            output-debug-info: enable
+            use-newlib-nano: true
+          linker:
+            $toolName: auto
+            LIB_FLAGS: -lm
+            output-format: elf
+            remove-unused-input-sections: true
+        scatterFilePath: Components/linker/hc32f460-app.ld
+        storageLayout:
+          RAM: []
+          ROM: []
+        useCustomScatterFile: true
+    uploadConfigMap:
+      Custom:
+        bin: build/Model-APP.bin
+        commandLine: cmd /c call "${ProjectRoot}\update.bat" "${port}" 921600 -1 1 "${programFile}"
+        eraseChipCommand: ""
+      JLink:
+        baseAddr: ""
+        bin: ""
+        cpuInfo:
+          cpuName: HC32F460
+          vendor: HDSC
+        otherCmds: ""
+        proType: 1
+        speed: 50000
+      pyOCD:
+        baseAddr: "0x00000000"
+        bin: ""
+        config: .eide/app.pyocd.yaml
+        otherCmds: ""
+        speed: 1M
+        targetName: hc32f460
+    uploader: JLink

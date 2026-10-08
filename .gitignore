@@ -1,0 +1,38 @@
+# Simulink 自动保存和缓存文件
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+*.slxc
+.MATLABDriveTag
+
+# Simulink 代码生成产生的非代码文件
+Model/Code/**/*.mat
+Model/Code/**/*.xml
+Model/Code/**/*.txt
+Model/Code/**/*.tlc
+Model/Code/**/*.dmr
+Model/Cache/
+slprj/
+**/tmwinternal/
+
+# Simulink 项目元数据（自动生成）
+**/resources/project/
+*.slxp
+
+# EIDE 编译输出
+build/
+.eide/*.log
+.eide/*.tmp
+.eide/*.db
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModbusPoll>
+   <FileSchema r="0" c="0"/>
+   <Version major="12" minor="1" patch="0" build="2473"/>
+   <dpi>144</dpi>
+   <WP left="0" right="1175" top="0" bottom="417" ShowCmd="3" MaxPosX="-11" MaxPosY="-45" MinPosX="-1" MinPosY="-1"/>
+   <ScanRate>0</ScanRate>
+   <SlaveID>1</SlaveID>
+   <Enable>1</Enable>
+   <StopOnError>0</StopOnError>
+   <OneBased>0</OneBased>
+   <RowsDialog>0</RowsDialog>
+   <HideNames>0</HideNames>
+   <HexMode>0</HexMode>
+   <DisplayAddr>0</DisplayAddr>
+   <ColCount>4</ColCount>
+   <RowCount>10</RowCount>
+   <ColumnWidth>
+      <CW>1027</CW>
+      <CW>2480</CW>
+      <CW>1027</CW>
+      <CW>1027</CW>
+   </ColumnWidth>
+   <RowHight>
+      <RH>207</RH>
+      <RH>207</RH>
+      <RH>207</RH>
+      <RH>207</RH>
+      <RH>207</RH>
+      <RH>207</RH>
+      <RH>207</RH>
+      <RH>207</RH>
+      <RH>207</RH>
+      <RH>207</RH>
+   </RowHight>
+   <ScrollPosV>0</ScrollPosV>
+   <ScrollPosH>0</ScrollPosH>
+   <FocusRow>2</FocusRow>
+   <FocusCol>2</FocusCol>
+   <LogText>
+      <Eachread>0</Eachread>
+      <Rate>1</Rate>
+      <LogChangedOnly>0</LogChangedOnly>
+      <LogErrors>0</LogErrors>
+      <LogErrorsOnly>0</LogErrorsOnly>
+      <LogAddress>1</LogAddress>
+      <LogDate>0</LogDate>
+      <TDelimiter>0</TDelimiter>
+      <LogMs>1</LogMs>
+      <Delimiter>0</Delimiter>
+      <AutoStart>0</AutoStart>
+      <Flush>0</Flush>
+      <Append>0</Append>
+      <NewLogFileAtMidnight>0</NewLogFileAtMidnight>
+      <InsertHeader>0</InsertHeader>
+      <NameCellsInTopRow>0</NameCellsInTopRow>
+      <PollDefinition>0</PollDefinition>
+      <LogName>Type log name here</LogName>
+      <FileName></FileName>
+   </LogText>
+   <LogExcel>
+      <Eachread>1</Eachread>
+      <Rate>1</Rate>
+      <StopAfter>1000</StopAfter>
+      <LogChangedOnly>0</LogChangedOnly>
+      <InsertHeader>1</InsertHeader>
+      <NameCellsInTopRow>1</NameCellsInTopRow>
+      <PollDefinition>1</PollDefinition>
+      <LogName>Type log name here</LogName>
+   </LogExcel>
+   <Data>
+      <Function>3</Function>
+      <Address>0</Address>
+      <Quantity>16</Quantity>
+      <EnronMode>0</EnronMode>
+      <Formats>
+         <F f="0" v="7"/>
+         <F f="25" v="20260222161840"/>
+         <F f="16" v="--"/>
+         <F f="16" v="--"/>
+         <F f="16" v="--"/>
+         <F f="2" v="0xBC06"/>
+         <F f="2" v="0x34E5"/>
+         <F f="2" v="0x7196"/>
+         <F f="2" v="0x0020"/>
+         <F f="2" v="0x3275"/>
+         <F f="2" v="0x3652"/>
+         <F f="2" v="0x6CA3"/>
+         <F f="2" v="0x889C"/>
+         <F f="17" v="20316"/>
+         <F f="16" v="--"/>
+         <F f="1" v="0"/>
+      </Formats>
+      <Bytes>
+         <B>7</B>
+         <B>0</B>
+         <B>0</B>
+         <B>0</B>
+         <B>109</B>
+         <B>18</B>
+         <B>88</B>
+         <B>51</B>
+         <B>176</B>
+         <B>83</B>
+         <B>6</B>
+         <B>188</B>
+         <B>229</B>
+         <B>52</B>
+         <B>150</B>
+         <B>113</B>
+         <B>32</B>
+         <B>0</B>
+         <B>117</B>
+         <B>50</B>
+         <B>82</B>
+         <B>54</B>
+         <B>163</B>
+         <B>108</B>
+         <B>156</B>
+         <B>136</B>
+         <B>0</B>
+         <B>0</B>
+         <B>92</B>
+         <B>79</B>
+         <B>0</B>
+         <B>0</B>
+      </Bytes>
+      <CellData>
+         <Cell idx="0">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>程序状态</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="1">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>构建时间</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="5">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>MD5开始</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="12">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>MD5结束</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="13">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>固件大小</Name>
+            <Font used="false"/>
+         </Cell>
+         <Cell idx="15">
+            <Colors/>
+            <Compare compare1="0" compare2="0" conditional1="0" conditional2="0"/>
+            <Name>固件偏移</Name>
+            <Font used="false"/>
+         </Cell>
+      </CellData>
+      <Scales/>
+      <ValueNames/>
+      <ChartSeries/>
+      <BinNames/>
+   </Data>
+</ModbusPoll>
